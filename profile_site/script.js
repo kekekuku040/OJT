@@ -1,7 +1,7 @@
 document.getElementById('contactForm').addEventListener('submit', function(event) {
     event.preventDefault();
 
-    fetch('https://script.google.com/macros/s/AKfycbzoKYAGSLQVHU1BLNJRQPWizWV5Pqp5apmzgv0bhD4NVBNDM3uH23ad7kGrLBvVvGtv/exec', {
+    fetch('https://script.google.com/macros/s/AKfycby7kYIHPY_Fo7jaDtZCsawv-9NH4CtlXJ4d32NS6D0HrAW7CUJ3BsErhBqkfe4ihzJK/exec', {
         method: 'POST',
         mode: 'cors',
         headers: {
